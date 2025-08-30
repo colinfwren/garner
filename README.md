@@ -6,6 +6,13 @@ Garner is a Django project. Django was picked due to it's modular nature as this
 
 Work on the project will be tracked on https://github.com/users/colinfwren/projects/5/views/1
 
+### Set up
+Set up is relatively simple
+- Run `python3 -m venv venv` to create a new Virtualenv
+- Run `source venv/bin/activate` to activate that virtualenv
+- Run `pip install -r dev-requirements.txt` to install the dependencies 
+- Run `pre-commit install` to install the pre-commit hooks
+
 ### Running things locally
 In order to run Garner locally you'll need Docker set up. You'll then need to do the following:
 
