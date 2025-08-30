@@ -13,6 +13,10 @@ Set up is relatively simple
 - Run `pip install -r dev-requirements.txt` to install the dependencies 
 - Run `pre-commit install` to install the pre-commit hooks
 
+### Conventions
+- Linting via `ruff`, rules are in `.ruff.toml`
+- When making an architectural decision create a new Architecture Decision Record via `adr-new <name of decision>` and create a PR for discussion
+
 ### Running things locally
 In order to run Garner locally you'll need Docker set up. You'll then need to do the following:
 
